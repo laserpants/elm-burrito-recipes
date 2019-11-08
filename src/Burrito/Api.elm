@@ -96,10 +96,11 @@ toHeader ( a, b ) =
 
 
 sendRequest : String -> Maybe Http.Body -> ModelUpdate resource a
-sendRequest suffix maybeBody model =
-    model
-        |> setResource Requested
-        |> andAddCmd (model.request suffix maybeBody)
+sendRequest suffix maybeBody =
+    using (\{ request } ->
+        setResource Requested
+            >> andAddCmd (request suffix maybeBody)
+    )
 
 
 sendSimpleRequest : ModelUpdate resource a

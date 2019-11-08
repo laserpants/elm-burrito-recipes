@@ -2,16 +2,13 @@ module Burrito.Api.Json exposing (JsonRequestConfig, init, sendJson)
 
 import Burrito.Api as Api exposing (HttpMethod, Model, ModelUpdate, Msg(..))
 import Burrito.Update exposing (Update)
-import Http exposing (emptyBody)
+import Http 
 import Json.Decode as Json
 
 
 sendJson : String -> Json.Value -> ModelUpdate resource a
-sendJson suffix json =
-    json
-        |> Http.jsonBody
-        |> Api.sendRequest suffix
-        << Just
+sendJson suffix =
+    Http.jsonBody >> Just >> Api.sendRequest suffix
 
 
 type alias JsonRequestConfig resource =
