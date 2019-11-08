@@ -1,4 +1,4 @@
-module Burrito.Router exposing (Msg(..), State, init, redirect, setRoute, update)
+module Burrito.Router exposing (Msg(..), State, init, redirect, update)
 
 import Browser exposing (UrlRequest)
 import Browser.Navigation as Navigation
