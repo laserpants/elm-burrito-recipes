@@ -2,7 +2,7 @@ module Burrito.Api.Json exposing (JsonRequestConfig, init, sendJson)
 
 import Burrito.Api as Api exposing (HttpMethod, Model, ModelUpdate, Msg(..))
 import Burrito.Update exposing (Update)
-import Http 
+import Http
 import Json.Decode as Json
 
 
