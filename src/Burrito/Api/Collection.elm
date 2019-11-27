@@ -1,7 +1,7 @@
 module Burrito.Api.Collection exposing (..)
 
 import Burrito.Api as Api exposing (Resource(..), apiDefaultHandlers)
-import Burrito.Update exposing (Update, andMap, andThen, mapCmd, save, using, with, runCallbacks)
+import Burrito.Update exposing (Update, andMap, andThen, mapCmd, runCallbacks, save, using, with)
 import Http exposing (Expect)
 
 
