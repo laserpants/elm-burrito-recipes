@@ -4,7 +4,7 @@
 
 <p><img src="logo.png" /></p>
 
-> Recipes are reusable pieces of functionality that can be integrated with an application. They have a dependency on the [`elm-burrito-update`](https://package.elm-lang.org/packages/laserpants/elm-burrito-update/latest/) library and rely on the the same coding style and conventions.
+> Recipes are reusable pieces of functionality that can be integrated with an [`elm-burrito-update`](https://package.elm-lang.org/packages/laserpants/elm-burrito-update/latest/) application. They have a dependency on the core library and rely on the the same coding style and conventions.
 
 <!--
 ## Installation
