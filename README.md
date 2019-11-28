@@ -16,3 +16,15 @@ elm install laserpants/elm-burrito-update
 elm install laserpants/elm-burrito-recipes
 ```
 -->
+
+## Api
+
+## Api.Json
+
+## Api.Collection
+
+## Api.Collection.Json
+
+## Form
+
+## Router
