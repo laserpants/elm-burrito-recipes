@@ -2,7 +2,7 @@
 
 [![Version](https://img.shields.io/badge/elm--version-0.19-blue.svg?colorB=ff69b4)](http://elm-lang.org/)
 
-<p><img src="logo.png" /></p>
+![Logo](https://raw.githubusercontent.com/laserpants/elm-burrito-update/master/logo.png)
 
 > Recipes are reusable pieces of functionality that can be integrated with a [Burrito](https://package.elm-lang.org/packages/laserpants/elm-burrito-update/latest/) application. They have a dependency on the `elm-burrito-update` library and rely on the the same coding style and conventions.
 
